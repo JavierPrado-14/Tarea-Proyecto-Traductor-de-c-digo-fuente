@@ -23,7 +23,7 @@ struct Traductor{
 
 void crear(){
 	char continuar;
-	FILE* archivo = fopen(nombre_archivo,"ab");
+	FILE* archivo = fopen(n_archivo,"ab");
 	Traductor traductor;
 	string esp,in,fun;
 	do{
