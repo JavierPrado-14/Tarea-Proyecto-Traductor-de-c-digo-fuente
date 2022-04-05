@@ -16,16 +16,15 @@ using namespace std;
 
 int cont = 0;
 
-void menu();/*
-void crear(); // javier
-void leer();	//maria
-void actualizar(); //jonathan
-void delete_line(); //carlos
-void readforiginal();//james
-void diccionario();//james
-void lecturaCodigo();//james
+void menu();
+void crear(); 
+void leer();	
+//void actualizar();
+void eliminar_linea(); 
+void R_i();
 
-*/
+
+
 
 
 
