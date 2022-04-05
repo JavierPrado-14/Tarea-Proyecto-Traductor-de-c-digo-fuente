@@ -5,7 +5,7 @@ por el momento solo lleva esto ya que no se ah terminado todas las funciones
 //1=dark_blue
 //3=dar_aqua
 //11=aqua
-#include <iomanip>
+
 #include <iostream>
 #include <string.h>
 #include <fstream>
