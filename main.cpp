@@ -56,6 +56,7 @@ void menu(){
     std::cout << "ingrese 4 para borrar linea" << '\n';
     std::cout << "ingrese 5 para traducir" << '\n';
     std::cout << "ingresa 6 para salir" << '\n';
+    std::cin >> cont;
   switch(cont)
 	{
 		case 1: crear();		 		;break; //javier
