@@ -46,5 +46,5 @@ void crear(){
 		cin>>continuar;
 	} while ( (continuar=='s') || (continuar=='S') );
 	fclose(archivo);
-	leer();
+//	leer();
 }

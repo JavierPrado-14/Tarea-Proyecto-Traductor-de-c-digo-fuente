@@ -36,5 +36,5 @@ void leer(){
 
 		//readforiginal();
 		system("pause");
-		menu();
+		//menu();
 }

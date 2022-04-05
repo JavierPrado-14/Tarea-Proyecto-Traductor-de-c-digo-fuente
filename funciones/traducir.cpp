@@ -19,6 +19,10 @@ y creo el comando que se debe mandar para hacer la traduccion al recibir el para
 lo almaceno en un archivo llamado trad.txt al ginal llamo a la funcion R_archivo1 [read archivo 1] esta funcion abrira el archivo original y copiara
 la linea de codigo a traducir y la imprimira ya traducida luego borrara el archivo temporal trad.txt
 */
+
+void R_archivo1();
+void R_in();
+
 void R_in(){
 	string line1="";
 	cin.ignore();
@@ -78,10 +82,10 @@ void BD(string line){
 void R_archivo1(){
 		int state;
 		string line;
-    for (int i=0; i«20; i++){
+    for (int i=0; i<20; i++){
       std::cout << "CARGANDO..." << '\n';
       std::cout << "------------------------" << '\n';
-      for (int j=0; jei; j++){
+      for (int j=0; j<i; j++){
         std::cout << "#" << '\n';
       }
       std::cout << "------------------------" << '\n';
@@ -126,7 +130,7 @@ void R_archivo1(){
 		std::cerr << "en la traduccion ah fallado algo" << '\n';
 		}
 		std::cout << '\n';
-		status = remove("trad.txt");
+		state = remove("trad.txt");
    		 if(state==0){
          std::cout << '\n';
          std::cout << "Traduccion terminada." << '\n';
