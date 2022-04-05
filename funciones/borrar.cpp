@@ -12,6 +12,8 @@ using namespace std;
 
 const char *nom_archivo_temporal = "archivo_tem.dat";
 
+void leer();
+
 
 void eliminar_linea(){
 
@@ -27,7 +29,7 @@ void eliminar_linea(){
         archivo = fopen(n_archivo, "rb");
 
     //pedir numero de linea a eliminar
-        cout << "Numero de linea a eliminar: ";
+        cout << "Numero de linea a eliminar: "; 
         cin >> num;
 
     //leer archivo original
@@ -42,9 +44,9 @@ void eliminar_linea(){
         fclose(archivo);
 
     //abrir archivo temporal
-        archivo_tem = fopen(nom_archivo_temporal, "rb");
+        archivo_tem= fopen(nom_archivo_temporal, "rb");
     //abrir archivo original
-        archivo = fopen(n_archivo, "wb");
+        archivo= fopen(n_archivo, "wb");
 
     //recorremos el archivo temporal copiando los datos al archivo original
         while(fread(&traductor, sizeof(Traductor), 1, archivo_tem))
@@ -55,6 +57,8 @@ void eliminar_linea(){
 
     //cerrar archivo temporal
         fclose(archivo_tem);
+    //eliminar archivo temporal
+        remove("archivo_tem.dat");
     //cerrar archivo original
         fclose(archivo);
 
