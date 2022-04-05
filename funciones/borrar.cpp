@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
+#include <windows.h>
 #include "actualizar.cpp"
 
 using namespace std;
@@ -16,7 +17,8 @@ void leer();
 
 
 void eliminar_linea(){
-
+  HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE) ;
+  SetConsoleTextAttribute (hConsole, 44);
     //declaracion de variables
         FILE *archivo, *archivo_tem;
         int num;

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
+#include <windows.h>
 #include "leer.cpp"
 
 using namespace std;
@@ -8,6 +9,8 @@ using namespace std;
 void leer();
 
 void actualizar(){
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE) ;
+	SetConsoleTextAttribute (hConsole, 32);
 	FILE* archivo = fopen(n_archivo,"r+b");
 	int id;
 	Traductor traductor;

@@ -17,17 +17,21 @@ void leer(){
 		int id=0;
 		fread(&traductor,sizeof(Traductor),1,archivo);
 		cout<<"---------------------------------------------------------------"<<endl;
-		cout<<"\t Listado de Palabras con su funcion"<<endl;
+		cout<<"|            Listado de Palabras con su funcion               |"<<endl;
 		do{
 		cout<<"---------------------------------------------------------------"<<endl;
 
-		cout<<setw(10);
-        cout<<"Id: "<<id;
-        cout<<setw(20);
+
+    cout<<"Id: "<<id;
+    cout<<setw(20);
 		cout<<"No. "<<traductor.num<<endl;
-		cout<<" Palabra en Ingles: "<<traductor.in<<endl;
-		cout<<" Palabra en Espanol: "<<traductor.esp<<endl;
-		cout<<"\t                 Funcionalidad: "<<traductor.fun<<endl;
+		std::cout << '\n';
+		cout<<"Palabra en Ingles: "<<traductor.in<<endl;
+		cout<<"Palabra en Espanol: "<<traductor.esp<<endl;
+		std::cout << '\n';
+		cout<<"--------------Funcionalidad----------------"<<endl;
+		std::cout << '\n';
+		std::cout <<traductor.fun << '\n';
 		fread(&traductor,sizeof(Traductor),1,archivo);
 		id+=1;
 		}while(feof(archivo)==0);

@@ -9,6 +9,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
+#include <windows.h>
 //n_archivo almacena el nombre del archivo
 using namespace std;
 const char *n_archivo = "archivo.dat";
@@ -24,6 +25,8 @@ struct Traductor{
 void leer();
 
 void crear(){
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE) ;
+	SetConsoleTextAttribute (hConsole, 6);
 	char continuar;
 	FILE* archivo = fopen(n_archivo,"ab");
 	Traductor traductor;
