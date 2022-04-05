@@ -40,16 +40,17 @@ void menu(){
     system("cls");
 
     SetConsoleTextAttribute (hConsole, 1);std::cout << "@@@@@@@  @@@@@@@    @@@@@@   @@@@@@@   @@@  @@@   @@@@@@@  @@@@@@@   @@@@@@   @@@@@@@  " << '\n';
-    SetConsoleTextAttribute (hConsole, 2);std::cout << "@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@  @@@@@@@@  @@@@@@@@  " << '\n';
-    SetConsoleTextAttribute (hConsole, 3);std::cout << "  @@!    @@!  @@@  @@!  @@@  @@!  @@@  @@!  @@@  !@@         @@!    @@!  @@@  @@!  @@@  " << '\n';
-    SetConsoleTextAttribute (hConsole, 4);std::cout << "  !@!    !@!  @!@  !@!  @!@  !@!  @!@  !@!  @!@  !@!         !@!    !@!  @!@  !@!  @!@ " << '\n';
-    SetConsoleTextAttribute (hConsole, 5);std::cout << "  @!!    @!@!!@!   @!@!@!@!  @!@  !@!  @!@  !@!  !@!         @!!    @!@  !@!  @!@!!@!  " << '\n';
-    SetConsoleTextAttribute (hConsole, 6);std::cout << "  !!!    !!@!@!    !!!@!!!!  !@!  !!!  !@!  !!!  !!!         !!!    !@!  !!!  !!@!@!" << '\n';
-    SetConsoleTextAttribute (hConsole, 7);std::cout << "  !!:    !!: :!!   !!:  !!!  !!:  !!!  !!:  !!!  :!!         !!:    !!:  !!!  !!: :!!  " << '\n';
-    SetConsoleTextAttribute (hConsole, 8);std::cout << "  :!:    :!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!  :!:         :!:    :!:  !:!  :!:  !:! " << '\n';
-    SetConsoleTextAttribute (hConsole, 9);std::cout << "   ::    ::   :::  ::   :::   :::: ::  ::::: ::   ::: :::     ::    ::::: ::  ::   ::: " << '\n';
-    SetConsoleTextAttribute (hConsole, 10);std::cout << "   :      :   : :   :   : :  :: :  :    : :  :    :: :: :     :      : :  :    :   : :  " << '\n';
-    SetConsoleTextAttribute (hConsole, 11);
+    SetConsoleTextAttribute (hConsole, 1);std::cout << "@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@  @@@@@@@@  @@@@@@@@  " << '\n';
+    SetConsoleTextAttribute (hConsole, 1);std::cout << "  @@!    @@!  @@@  @@!  @@@  @@!  @@@  @@!  @@@  !@@         @@!    @@!  @@@  @@!  @@@  " << '\n';
+    SetConsoleTextAttribute (hConsole, 9);std::cout << "  !@!    !@!  @!@  !@!  @!@  !@!  @!@  !@!  @!@  !@!         !@!    !@!  @!@  !@!  @!@ " << '\n';
+    SetConsoleTextAttribute (hConsole, 9);std::cout << "  @!!    @!@!!@!   @!@!@!@!  @!@  !@!  @!@  !@!  !@!         @!!    @!@  !@!  @!@!!@!  " << '\n';
+    SetConsoleTextAttribute (hConsole, 9);std::cout << "  !!!    !!@!@!    !!!@!!!!  !@!  !!!  !@!  !!!  !!!         !!!    !@!  !!!  !!@!@!" << '\n';
+    SetConsoleTextAttribute (hConsole, 3);std::cout << "  !!:    !!: :!!   !!:  !!!  !!:  !!!  !!:  !!!  :!!         !!:    !!:  !!!  !!: :!!  " << '\n';
+    SetConsoleTextAttribute (hConsole, 3);std::cout << "  :!:    :!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!  :!:         :!:    :!:  !:!  :!:  !:! " << '\n';
+    SetConsoleTextAttribute (hConsole, 3);std::cout << "   ::    ::   :::  ::   :::   :::: ::  ::::: ::   ::: :::     ::    ::::: ::  ::   ::: " << '\n';
+    SetConsoleTextAttribute (hConsole, 9
+    );std::cout << "   :      :   : :   :   : :  :: :  :    : :  :    :: :: :     :      : :  :    :   : :  " << '\n';
+    SetConsoleTextAttribute (hConsole, 9);
 
 /*
   switch(cont)
