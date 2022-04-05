@@ -5,6 +5,7 @@
 
 using namespace std;
 
+void leer();
 
 void actualizar(){
 	FILE* archivo = fopen(n_archivo,"r+b");
@@ -33,4 +34,4 @@ void actualizar(){
 	leer();
 }
 
-//actualizacion 
+//actualizacion
