@@ -7,6 +7,7 @@ por el momento solo lleva esto ya que no se ah terminado todas las funciones
 #include <string.h>
 #include <fstream>
 #include <windows.h>
+#include "funciones\traducir.cpp"
 using namespace std;
 
 
