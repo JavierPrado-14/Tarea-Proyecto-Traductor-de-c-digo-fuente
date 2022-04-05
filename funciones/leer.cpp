@@ -21,9 +21,9 @@ void leer(){
 		do{
 		cout<<"--------------------"<<endl;
 
-		cout<<stew(10);
+		cout<<setw(10);
     cout<<"Id: "<<id;
-    cout<<stew(20);
+    cout<<setw(20);
 		cout<<"No. "<<traductor.num<<endl;
 		cout<<"Palabra en Ingles: "<<traductor.in<<endl;
 		cout<<"     Palabra en Espanol: "<<traductor.esp<<endl;
