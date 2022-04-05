@@ -50,13 +50,17 @@ void menu(){
     SetConsoleTextAttribute (hConsole, 11);
     system("pause");
     system("cls");
-    std::cout << "ingrese 1 para crear" << '\n';
-    std::cout << "ingrese 2 para leer " << '\n';
-    std::cout << "ingrese 3 para actualizar" << '\n';
-    std::cout << "ingrese 4 para borrar linea" << '\n';
-    std::cout << "ingrese 5 para traducir" << '\n';
-    std::cout << "ingresa 6 para salir" << '\n';
+    std::cout <<"--------------------------------------------------------"<< '\n';
+    std::cout << "ingrese 1: para crear" << '\n';
+    std::cout << "ingrese 2: para leer " << '\n';
+    std::cout << "ingrese 3: para actualizar" << '\n';
+    std::cout << "ingrese 4: para borrar linea" << '\n';
+    std::cout << "ingrese 5: para traducir" << '\n';
+    std::cout << "ingresa 6: para salir" << '\n';
+    std::cout <<"--------------------------------------------------------"<< '\n';
+    std::cout << "ingrese su opcion: ";
     std::cin >> cont;
+    
   switch(cont)
 	{
 		case 1: crear();		 		break; //javier
