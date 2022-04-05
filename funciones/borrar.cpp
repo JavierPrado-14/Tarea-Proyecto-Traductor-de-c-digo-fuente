@@ -6,7 +6,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
-#include "leer.cpp"
+#include "actualizar.cpp"
 
 using namespace std;
 
@@ -29,7 +29,7 @@ void eliminar_linea(){
         archivo = fopen(n_archivo, "rb");
 
     //pedir numero de linea a eliminar
-        cout << "Numero de linea a eliminar: "; 
+        cout << "Numero de linea a eliminar: ";
         cin >> num;
 
     //leer archivo original
