@@ -21,6 +21,8 @@ struct Traductor{
 	char fun[1000];
 };
 
+void leer();
+
 void crear(){
 	char continuar;
 	FILE* archivo = fopen(n_archivo,"ab");
@@ -46,5 +48,5 @@ void crear(){
 		cin>>continuar;
 	} while ( (continuar=='s') || (continuar=='S') );
 	fclose(archivo);
-//	leer();
+	leer();
 }

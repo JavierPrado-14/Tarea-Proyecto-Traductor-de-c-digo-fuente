@@ -6,7 +6,7 @@
 
 
 using namespace std;
-
+void menu();
 void leer(){
 		system("cls");
 		FILE* archivo = fopen(n_archivo,"rb");
@@ -36,5 +36,5 @@ void leer(){
 
 		//readforiginal();
 		system("pause");
-		//menu();
+		menu();
 }

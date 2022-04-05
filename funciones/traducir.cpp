@@ -19,7 +19,7 @@ y creo el comando que se debe mandar para hacer la traduccion al recibir el para
 lo almaceno en un archivo llamado trad.txt al ginal llamo a la funcion R_archivo1 [read archivo 1] esta funcion abrira el archivo original y copiara
 la linea de codigo a traducir y la imprimira ya traducida luego borrara el archivo temporal trad.txt
 */
-
+void menu();
 void R_archivo1();
 void R_in();
 
@@ -140,4 +140,5 @@ void R_archivo1(){
 			}
     	std::cout << '\n';
 		system("pause");
+		menu();
 }
