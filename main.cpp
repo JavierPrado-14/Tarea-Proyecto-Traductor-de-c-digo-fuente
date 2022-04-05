@@ -16,7 +16,7 @@ int cont = 0;
 void menu();
 void crear();
 void leer();
-//void actualizar();
+void actualizar();
 void eliminar_linea();
 void R_in();
 
