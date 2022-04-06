@@ -92,12 +92,13 @@ void menu(){
   switch(cont)
 	{
 		case 1: crear();		 		break; //javier
- 		case 2: leer();					break; //maria //no regresa despues de leer
+ 		case 2: leer();					break; //maria
  		case 3: actualizar();	 		;break; //jonathan
  		case 4: eliminar_linea();	 		break; //carlos
  		case 5: R_in();		break; //james
  		case 6: exit(-1);				break;
-		default: MessageBox( 0, "Hello World!", "Greetings", 0 );
+    default: std::cout << "ERROR!!! Ingresa de nuevo la opcion " << '\n'; break;
+    //default: MessageBox( 0, "Ingresa el valor de la opcion", "ERROR!!!", 0 );
 	}while(1==1);
 
 
