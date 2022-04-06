@@ -9,5 +9,7 @@
 ```
 - g++ -o main main.cpp
 ```
-
+##Preview
+[![logo.png](https://i.postimg.cc/7LMmtMFL/logo.png)](https://postimg.cc/2qyQVv8p)
+[![menu.png](https://i.postimg.cc/V6kBGy97/menu.png)](https://postimg.cc/kVLbGpp8)
 ### FIN.
